@@ -1,0 +1,25 @@
+{
+  "name": "cloud-finops",
+  "version": "1.0.4",
+  "description": "Azure Cloud FinOps portal — cost estimation, drivers, and AUD pricing",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "build:firmgate": "VITE_BASE_PATH=/finops npm run build -w client",
+    "start": "npm run start -w server",
+    "version:bump": "node scripts/bump-version.js",
+    "postinstall": "npm run build -w client 2>/dev/null || true"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "updates": [
+    {
+      "id": "b979df31-4927-438d-b41a-bc12f3fb081d",
+      "timestamp": "2026-07-03T03:20:01.139Z",
+      "action": "export",
+      "version": "1.0.4",
+      "previousVersion": "1.0.3",
+      "filename": "cloud-finops-v1.0.4-1783048801080.zip",
+      "notes": "Costing fixes v1.0.3 — line items sum correctly, licence scaling with nodes, UI breakdown"
+    },
+    {
+      "id": "f6c8d655-c55d-42ae-8d05-d6510997adb9",
+      "timestamp": "2026-07-03T03:19:38.436Z",
+      "action": "export",
+      "version": "1.0.3",
+      "previousVersion": "1.0.2",
+      "filename": "cloud-finops-v1.0.3-1783048778377.zip",
+      "notes": "Fix cost totals — line items always sum correctly, remove duplicate contract licences, clearer UI breakdown"
+    },
+    {
+      "id": "5a6e4462-c086-4d78-9dc1-2a76aa1d67e7",
+      "timestamp": "2026-07-03T01:46:34.597Z",
+      "action": "export",
+      "version": "1.0.2",
+      "previousVersion": "1.0.1",
+      "filename": "cloud-finops-v1.0.2-1783043194536.zip",
+      "notes": "Fix costing totals (node×price), licence scaling with workers, ApplicationDetail crash, version management"
+    },
+    {
+      "id": "d686637e-87c8-4ae5-8241-f0326306022a",
+      "timestamp": "2026-07-03T01:34:32.639Z",
+      "action": "export",
+      "version": "1.0.2",
+      "previousVersion": "1.0.1",
+      "filename": "cloud-finops-v1.0.2-1783042472585.zip",
+      "notes": "test bump"
+    },
+    {
+      "id": "0a800dac-5ea5-4f40-96e8-f92a203bd4f5",
+      "timestamp": "2026-07-03T01:32:42.581Z",
+      "action": "export",
+      "version": "1.0.0",
+      "filename": "cloud-finops-v1.0.0-1783042362530.zip",
+      "notes": "Fix system package import — applies all server/client files correctly"
+    },
+    {
+      "id": "3e3ddf33-ffb0-4b40-829f-7a3e6d2cd94c",
+      "timestamp": "2026-07-03T01:32:38.163Z",
+      "action": "import",
+      "version": "1.0.0",
+      "previousVersion": "1.0.0",
+      "newVersion": "1.0.0",
+      "notes": "Test import after fix",
+      "appliedPaths": 49,
+      "backupFile": "backup-v1.0.0-1783042356792.zip",
+      "rebuild": {
+        "rebuilt": true
+      },
+      "requiresServerRestart": true,
+      "manifest": {
+        "version": "1.0.0",
+        "packagedAt": "2026-07-03T01:29:46.870Z"
+      }
+    },
+    {
+      "id": "a62c3a92-7adb-402b-9176-abfa462a9cb6",
+      "timestamp": "2026-07-03T01:29:46.922Z",
+      "action": "export",
+      "version": "1.0.0",
+      "filename": "cloud-finops-v1.0.0-1783042186871.zip",
+      "notes": "Updated release — landing page disclaimer, fixed footer, offline pricing snapshot, Cloud budget estimation portal"
+    }
+  ]
+}

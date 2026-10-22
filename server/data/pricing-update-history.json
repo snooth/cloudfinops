@@ -1,0 +1,40 @@
+{
+  "updates": [
+    {
+      "id": "89da0b2e-06b6-4010-a0c1-c04a1147583b",
+      "timestamp": "2026-08-05T00:56:16.537Z",
+      "action": "sync-from-catalog",
+      "notes": "Synced from full offline catalog (13,341 meters)",
+      "entryCounts": {
+        "vmCount": 1560,
+        "storageCount": 5,
+        "staticCount": 43,
+        "total": 1608
+      }
+    },
+    {
+      "id": "b5a26f4e-0d4c-43a7-9424-96f0592a9e61",
+      "timestamp": "2026-08-05T00:42:12.685Z",
+      "action": "sync-from-catalog",
+      "notes": "Synced from full offline catalog (11,899 meters)",
+      "entryCounts": {
+        "vmCount": 544,
+        "storageCount": 5,
+        "staticCount": 43,
+        "total": 592
+      }
+    },
+    {
+      "id": "c501f15c-addc-4746-a6bb-f3389fb4a63d",
+      "timestamp": "2026-08-05T00:40:08.352Z",
+      "action": "sync-from-catalog",
+      "notes": "Synced from full offline catalog (11,899 meters)",
+      "entryCounts": {
+        "vmCount": 544,
+        "storageCount": 5,
+        "staticCount": 43,
+        "total": 592
+      }
+    }
+  ]
+}

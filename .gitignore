@@ -1,0 +1,16 @@
+node_modules/
+.env
+.run/
+logs/
+client/dist/
+*.log
+.DS_Store
+server/data/azure-retail-catalog.json.gz
+server/data/azure-retail-catalog-meta.json
+server/data/admin-auth.json
+server/data/sessions.json
+server/data/tenants/
+server/data/*.pre-tenancy.bak
+server/data/backups/
+server/data/staging/
+releases/*.zip
